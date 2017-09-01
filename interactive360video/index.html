@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Interactive 360 video</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css" rel="stylesheet">
+
+    <style type="text/css">
+      .author {
+        text-align: center;
+      }
+      .authorname {
+        font-weight: 400;
+      }
+      .abstract {
+        font-size: 1.3em;
+      }
+      .paperlink {
+        font-size: 0.9em;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-12" style="text-align:center">
+            <h1>Shot Orientation Controls for<br>Interactive Cinematography with 360 Video</h1>
+<!--             <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p> -->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 author">
+            <p class="lead"><a href="https://people.eecs.berkeley.edu/~amypavel/" class="authorname">Amy Pavel</a><br>UC Berkeley</p>
+          </div>
+          <div class="col-sm-4 author">
+            <p class="lead"><a href="https://people.eecs.berkeley.edu/~bjoern/" class="authorname">Björn Hartmann</a><br>UC Berkeley</p>
+          </div>
+          <div class="col-sm-4 author">
+            <p class="lead"><a href="http://graphics.stanford.edu/~maneesh/" class="authorname">Maneesh Agrawala</a><br>Stanford</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <img src="../images/techniques.png" width="100%">
+            <h3>Abstract</h3>
+            <p class="lead abstract">
+              Virtual reality filmmakers creating 360◦ video currently rely
+              on cinematography techniques that were developed for traditional narrow field of view film. They typically edit together
+              a sequence of shots so that they appear at a fixed orientation
+              irrespective of the viewer’s field of view. But because viewers
+              set their own camera orientation they may miss important story
+              content while looking in the wrong direction. We present new
+              interactive shot orientation techniques that are designed to help
+              viewers see all of the important content in 360◦ video stories.
+              Our viewpoint-oriented technique reorients the shot at each cut so that the most important content lies in the the viewer’s current field of view. Our active reorientation technique lets the viewer press a button to immediately reorient the shot so that important content lies in their field of view. We present a 360◦ video player which implements these techniques and conduct a user study which finds that users spend 5.2-9.5% more time viewing (manually labeled) important points of the scene with our techniques compared to the traditional fixed-orientation cuts. In practice, 360◦ video creators may label important content, but we also provide an automatic method for determining important content in existing 360◦ videos.
+            </p>
+          </div>
+        </div>
+        <h3>Paper 
+          <a href="paper-small.pdf" class="paperlink"> PDF (7MB)</a> | 
+          <a href="paper-big.pdf" class="paperlink">Hi-res PDF (55MB)</a>
+        </h3>
+        <h3>Video</h3>
+        
+        <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/nGXe9qT19t8' frameborder='0' allowfullscreen></iframe></div>
+
+<!--         <iframe width="1280" height="720" src="https://www.youtube.com/embed/nGXe9qT19t8" frameborder="0" allowfullscreen></iframe> -->
+
+        <h3>Supplementary material</h3>
+        <p>Coming soon!</p>
+        <h3>Bibtex</h3>
+          <pre>
+@inproceedings{pavel2017shot,
+    title={Shot Orientation Controls for Interactive Cinematography with 360 Video},
+    author={Pavel, Amy and Hartmann, Bjoern and Agrawala, Maneesh},
+    booktitle={To appear, UIST'17},
+    year={2017},
+    organization={ACM}
+}</pre>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>-->
+  </body>
+</html>
